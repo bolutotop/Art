@@ -31,7 +31,7 @@ export default function Header() {
               <span className="font-serif font-bold text-lg italic">A</span>
             </div>
             <span className="text-art-ink text-xl font-serif font-bold tracking-tight group-hover:opacity-70 transition-opacity">
-              美术工具大全
+              ART.SHARE
             </span>
           </Link>
           

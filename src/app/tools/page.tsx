@@ -18,13 +18,14 @@ export default function ToolsDirectory() {
         <div className="flex flex-col gap-4 text-right">
           <div className="text-xs uppercase tracking-[0.2em] text-art-stone">Category Index</div>
           <div className="text-4xl font-serif">
-            08 <span className="text-lg text-art-stone font-sans align-top">Sections</span>
+            06 <span className="text-lg text-art-stone font-sans align-top">Sections</span>
           </div>
         </div>
       </div>
 
-      {/* 瀑布流/网格卡片区 */}
+      {/* 瀑布流/网格卡片区 - 全新 6 宫格排版 */}
       <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-6 auto-rows-[280px]">
+        
         {/* 卡片 1: 素描工具 */}
         <div className="md:col-span-6 lg:col-span-8 row-span-2 group card-editorial relative overflow-hidden bg-white shadow-sm hover:shadow-lg rounded-sm">
           <img alt="Sketching tools" className="card-img absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCljlQ32No-7ow7CWpObFDuyvD-Lu0YIluzHBX8rzanOJnPApU0sZdLKSrvWL3yPIo1Kfu_5C6ZJ6TVF5_xPBVQzXz8flhV8Y3Z6NbjsQZpoLMQ0pxOFGiNTdBapU_-JSvemaqjyD9hOFoqX1NrS1peiVCSpTs9UvQdu8srBSE8VlPkMmuYpJRnPlaqZOVM83W3Xklf_r-NUUFWmpS4q7pLoDtv1Wvxa-XGL72vVvXerxuwPD73RiiGPnaguROmG23_mOEBPe9N0Vd0" />
@@ -85,49 +86,31 @@ export default function ToolsDirectory() {
           </div>
         </div>
 
-        {/* 卡片 5: 矢量/手绘设计 */}
-        <div className="md:col-span-3 lg:col-span-4 row-span-1 group card-editorial relative overflow-hidden bg-art-stone shadow-sm hover:shadow-lg rounded-sm">
+        {/* 卡片 5: 矢量/手绘设计 (深色纵向大卡片) */}
+        <div className="md:col-span-6 lg:col-span-4 row-span-2 group card-editorial relative overflow-hidden bg-art-stone shadow-sm hover:shadow-lg rounded-sm">
           <img alt="Vector art" className="card-img absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1N9BdXSTkSYYQ4DliqoV9tJ4TUofw_HuP_J6e8EKJR17cMA2FxLhjBpoByl_k6KW3e-RSY37PffBkLnhaLaDRGHrUr7_W65iZAYek8Fw95ijWQKXnm9Re29SO9WxzlbotQGRGE4Z-7a_I-7ok2bYDijFGwb6wWDh17X70zciiQMoD5jxjVFVOA0IvNte0L2OH-fJM84k_JtJVdpGp8xjZges4VTiGzezDl2OApGTRFdrl7_ex_nDOnYVeJKnkAGl4MLUwbgiO_YQn" />
-          <div className="absolute inset-0 p-8 flex flex-col justify-end">
-            <h3 className="font-serif text-2xl text-white mb-1">矢量/手绘设计</h3>
-            <p className="text-white/70 text-sm">Illustrator 精确与扩展</p>
-          </div>
-        </div>
-
-        {/* 卡片 6: 3D 建模 */}
-        <div className="md:col-span-3 lg:col-span-4 row-span-1 group card-editorial relative overflow-hidden bg-white shadow-sm hover:shadow-lg rounded-sm border border-art-stone/10">
-          <div className="absolute inset-0 flex">
-            <div className="w-1/3 h-full relative overflow-hidden">
-              <img alt="3D model" className="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsDSJNSDaD9pPG3T5UDaqqMo9-8eg7J__5oxzRyL7ZLQZFw6OBFyeqFmB-rrLehva-1Z8zSBhe8TiQ2qkASdgQ02tkE2CLyMhJINTXVzD6U2b-gm9HoM3CRrMQYUzksgDSDlssXoVeyHhSZI5ANrsmTSnQehlhV1RQJoj7rjdNHF32PLgu0dMZvL0dI3QosV4pjQM6uLGqUQDG-sqMPjmNrSav47iHeJ3LYWYFARXUIYVL30E_mWpG7ohA3hxqjHa4BhWu3_hk6UhG" />
-            </div>
-            <div className="w-2/3 p-6 flex flex-col justify-center">
-              <h3 className="font-serif text-xl text-art-ink font-bold mb-2">3D 建模/辅助</h3>
-              <p className="text-sm text-art-stone mb-4">Blender & ZBrush</p>
-              <span className="text-xs font-bold text-art-ochre uppercase tracking-widest group-hover:underline">Explore</span>
+          <div className="absolute inset-0 p-10 flex flex-col justify-end">
+            <span className="text-white/40 text-xs tracking-[0.3em] uppercase mb-4">Professional Design</span>
+            <h3 className="font-serif text-4xl text-white mb-2 leading-tight">矢量/手绘设计</h3>
+            <p className="text-white/70 text-base max-w-xs font-light mb-6">Illustrator 精确与扩展，从草图到无限放大的艺术表达。</p>
+            <div className="w-10 h-10 border border-white/20 flex items-center justify-center rounded-full group-hover:bg-white group-hover:text-art-ink transition-all">
+              <span className="material-symbols-outlined text-xl">north_east</span>
             </div>
           </div>
         </div>
 
-        {/* 卡片 7: 摄影/参考 */}
-        <div className="md:col-span-3 lg:col-span-4 row-span-1 group card-editorial relative overflow-hidden bg-art-ink text-white shadow-sm hover:shadow-lg rounded-sm">
-          <img alt="Photography" className="card-img absolute inset-0 w-full h-full object-cover opacity-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAugxezOTBymKUXcpJSwM9UJT1rSa8xKACpLsYDOjT88OCc4yiiPtBvCPWj0ektGXXUliVIe8TKYwWEWnsu27ULqapEfiLOqcSyc6r7QACaEExxslYTP93nekyA3FOu9ic3Kmkc995EFB4vEHgPo1cW9sjQ0epYDmE3Pt7r9MBsNzeAZtW1-dr_TpIp2KmCEmM6DMwzdQp6evqIt2UZk0gOLgxyn_A2F95hfqY66GLyNp5XjOVGSSlqQaf7OCZYmbVNT_ew6VI3pBtr" />
-          <div className="absolute inset-0 border border-white/10 m-4 flex flex-col justify-center items-center text-center">
-            <span className="material-symbols-outlined text-3xl mb-2 font-light">shutter_speed</span>
-            <h3 className="font-serif text-xl tracking-wide">摄影/参考</h3>
+        {/* 卡片 6: 摄影/参考 (横向宽卡片) */}
+        <div className="md:col-span-6 lg:col-span-8 row-span-1 group card-editorial relative overflow-hidden bg-art-ink text-white shadow-sm hover:shadow-lg rounded-sm">
+          <img alt="Photography" className="card-img absolute inset-0 w-full h-full object-cover opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAugxezOTBymKUXcpJSwM9UJT1rSa8xKACpLsYDOjT88OCc4yiiPtBvCPWj0ektGXXUliVIe8TKYwWEWnsu27ULqapEfiLOqcSyc6r7QACaEExxslYTP93nekyA3FOu9ic3Kmkc995EFB4vEHgPo1cW9sjQ0epYDmE3Pt7r9MBsNzeAZtW1-dr_TpIp2KmCEmM6DMwzdQp6evqIt2UZk0gOLgxyn_A2F95hfqY66GLyNp5XjOVGSSlqQaf7OCZYmbVNT_ew6VI3pBtr" />
+          <div className="absolute inset-0 border border-white/5 m-4 flex flex-col justify-center items-center text-center">
+            <div className="mb-4">
+              <span className="material-symbols-outlined text-5xl font-extralight text-art-ochre">shutter_speed</span>
+            </div>
+            <h3 className="font-serif text-3xl tracking-widest uppercase">摄影/参考</h3>
+            <p className="text-white/50 text-sm mt-3 font-light tracking-wide italic">Captured Reality & Visual References</p>
           </div>
         </div>
 
-        {/* 卡片 8: 版画/其他 */}
-        <div className="md:col-span-3 lg:col-span-4 row-span-1 group card-editorial relative overflow-hidden bg-[#E8E6E1] shadow-sm hover:shadow-lg rounded-sm">
-          <div className="absolute top-0 right-0 p-4 opacity-10">
-            <span className="material-symbols-outlined text-6xl">layers</span>
-          </div>
-          <div className="p-8 h-full flex flex-col justify-end relative z-10">
-            <h3 className="font-serif text-2xl text-art-ink mb-1">版画/其他</h3>
-            <div className="w-full h-[1px] bg-art-ink/20 my-2"></div>
-            <p className="text-art-stone text-sm">油毡与丝网印刷复刻艺术</p>
-          </div>
-        </div>
       </div>
 
       {/* 底部引导区 */}
