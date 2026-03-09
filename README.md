@@ -45,7 +45,7 @@ server {
     server_name yuehhhh.top www.yuehhhh.top;
 
     location / {
-        proxy_pass http://localhost:3001;
+        proxy_pass http://localhost:32312;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
