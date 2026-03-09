@@ -95,9 +95,9 @@ export default function AboutPage() {
           
           {/* 画师联络区 */}
           <div className="md:col-span-7">
-            <h2 className="font-serif text-3xl font-bold mb-4">link</h2>
+            <h2 className="font-serif text-3xl font-bold mb-4">邮箱</h2>
             <p className="text-art-stone font-light mb-10 max-w-sm">
-              邮箱
+              有任何想法可以联系我
             </p>
             <a href="mailto:1349546818@qq.com" className="inline-block text-2xl md:text-3xl font-serif text-art-ink hover:text-art-ochre transition-colors border-b-2 border-transparent hover:border-art-ochre pb-1 mb-12">
               1349546818@qq.com
