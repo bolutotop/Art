@@ -112,7 +112,7 @@ export default function AboutPage() {
                 Digital Architecture
               </h4>
               
-              <h3 className="font-serif text-xl font-bold text-art-ink mb-6">开发者</h3>
+              <h3 className="font-serif text-xl font-bold text-art-ink mb-6">关于网站</h3>
 
               <div className="space-y-3 bg-white p-4 rounded-sm border border-art-stone/5">
                 <div className="flex justify-between items-center border-b border-art-stone/5 pb-2">
