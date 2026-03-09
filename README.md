@@ -1,4 +1,4 @@
-# ART.SHARE - 数字画廊部署档案
+# ART.SHARE 
 > **Live Site:** [https://yuehhhh.top](https://yuehhhh.top)
 ---
 
@@ -83,7 +83,7 @@ sudo certbot --nginx -d yuehhhh.top -d www.yuehhhh.top
 
 ---
 
-## 状态检查与排错 (Troubleshooting)
+## 状态检查与排错
 
 * **查 PM2 状态**：`pm2 status`
 * **查 PM2 日志**：`pm2 logs yue-art-3001`
