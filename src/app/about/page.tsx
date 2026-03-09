@@ -95,12 +95,12 @@ export default function AboutPage() {
           
           {/* 画师联络区 */}
           <div className="md:col-span-7">
-            <h2 className="font-serif text-3xl font-bold mb-4">随时碰撞。</h2>
+            <h2 className="font-serif text-3xl font-bold mb-4">link</h2>
             <p className="text-art-stone font-light mb-10 max-w-sm">
-              不扯虚的。不管你是想聊聊构图的底层逻辑，还是带着预算来谈商业约稿，邮箱见。
+              邮箱
             </p>
-            <a href="mailto:artist@example.com" className="inline-block text-2xl md:text-3xl font-serif text-art-ink hover:text-art-ochre transition-colors border-b-2 border-transparent hover:border-art-ochre pb-1 mb-12">
-              artist@example.com
+            <a href="mailto:1349546818@qq.com" className="inline-block text-2xl md:text-3xl font-serif text-art-ink hover:text-art-ochre transition-colors border-b-2 border-transparent hover:border-art-ochre pb-1 mb-12">
+              1349546818@qq.com
             </a>
           </div>
 
@@ -121,7 +121,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex justify-between items-center border-b border-art-stone/5 pb-2 pt-1">
                   <span className="text-xs text-art-stone uppercase tracking-wider">GitHub</span>
-                  <a href="https://github.com/HueyTowne" target="_blank" rel="noopener noreferrer" className="font-serif font-bold text-art-ink hover:text-art-ochre transition-colors flex items-center gap-1">
+                  <a href="https://github.com/bolutotop/Art" target="_blank" rel="noopener noreferrer" className="font-serif font-bold text-art-ink hover:text-art-ochre transition-colors flex items-center gap-1">
                     @HueyTowne <span className="material-symbols-outlined text-[14px]">arrow_outward</span>
                   </a>
                 </div>
